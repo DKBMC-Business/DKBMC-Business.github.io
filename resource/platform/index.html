@@ -81,6 +81,8 @@
     </nav>
 
 <header class="post-header intro-header resource-header" style="background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url('http://www.dkbmc.com/lib/imgs/solution/solution04.png');">
+
+
     <div class="container">
         <div class="row">
            <div class="col-lg-12 col-md-12">
@@ -90,12 +92,11 @@
                  <div class="solution_part-logo">
                      <img src="http://www.dkbmc.com/lib/imgs/solution/salesforce_logo.png" alt="sales_logo" />
                  </div>
-                <hr class="small" style="border-color: #176db5;"/>
                <h1>Salesforce Platform 솔루션과 구축 서비스</h1>
 
                
                
-               <h2 class="subheading"></h2>
+               
              </div>
            </div>
         </div>
@@ -106,11 +107,11 @@
 <article class="content-line">
     <div class="container resource-container">
         <div class="row">
-            <div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1">
+            <div class="solution_item col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1">
                 <!-- 게시글 내용 -->
 
-<p>Salesforce의 개발 플랫폼인 Salesforce1 플랫폼을 활용해 일반 어플리케이션 보다 40% 빠른 속도로 사용자 어플리케이션을 개발할 수 있습니다.<br /> Salesforce1 플랫폼은 Salesforce CRM 어플리케이션과 함께 제공되고 Heroku 플랫폼을 함께 활용해 내부 직원을 위한 어플리케이션 뿐 아니라 B2B, B2C 어플리케이션을 모두 개발할 수 있는 개발 플랫폼 입니다. <br />DK BMC는 Salesforce 플랫폼을 활용해 기업이 요구하는 다양한 어플리케이션 개발 서비스를 제공 합니다.</p>
-!!
+<p>Salesforce의 개발 플랫폼인 Salesforce1 플랫폼을 활용해 일반 어플리케이션 보다 40% 빠른 속도로 사용자 어플리케이션을 개발할 수 있습니다.<br /> Salesforce1 플랫폼은 Salesforce CRM 어플리케이션과 함께 제공되고 Heroku 플랫폼을 함께 활용해 내부 직원을 위한 어플리케이션 뿐 아니라 B2B, B2C 어플리케이션을 모두 개발할 수 있는 개발 플랫폼 입니다. <br /><br />DK BMC는 Salesforce 플랫폼을 활용해 기업이 요구하는 다양한 어플리케이션 개발 서비스를 제공 합니다.</p>
+
 
                 
             </div>
@@ -119,7 +120,7 @@
 </article>
 <hr>
 <button class="btn-top" onclick="moveTop()">
-  <img src="https://DKBMC-Business.github.io//img/btn-top.png" alt="TOP"/>
+  <img src="https://DKBMC-Business.github.io//img/btn-top.png" alt="TOP" />
 </button>
 
 <footer>
@@ -177,24 +178,24 @@
   removePreviewImg();
   $(window).on("load resize", function () {
     var winWidth = window.innerWidth;
-    if(winWidth <= 1199) {
-      setTimeout(function(){
+    if (winWidth <= 1199) {
+      setTimeout(function () {
         postAlign(2);
-      },200);
+      }, 200);
     }
     else {
-      setTimeout(function(){
+      setTimeout(function () {
         postAlign(3);
-      },200);
+      }, 200);
     }
      
     $("#loading").delay(500).fadeOut(500);
   });
 
    
-  $(document).on("ready scroll",function(){
+  $(document).on("ready scroll", function () {
     var scrollTop = $(document).scrollTop();
-    if(scrollTop >= 300) {
+    if (scrollTop >= 300) {
       $(".btn-top").addClass("active");
     }
     else {
@@ -216,19 +217,19 @@
 
 
   function moveTop() {
-    $("html,body").animate({"scrollTop":0},200);
+    $("html,body").animate({ "scrollTop": 0 }, 200);
     $("html,body").scrollTop(0);
   }
-  
+
    
   function postAlign(num) {
     var heightArray = [];
-    for (var i = 0; i < num ; i++) {
-      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
-      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
-      if( i === 0 ) {
-        $box = $(".post-preview:nth-of-type("+ num +"n)");
-        boxTarget = ".post-preview:nth-of-type("+ num +"n)";
+    for (var i = 0; i < num; i++) {
+      var $box = $(".post-preview:nth-of-type(" + num + "n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type(" + num + "n+" + i + ")";
+      if (i === 0) {
+        $box = $(".post-preview:nth-of-type(" + num + "n)");
+        boxTarget = ".post-preview:nth-of-type(" + num + "n)";
       }
       var boxHeight = $box.eq(0).outerHeight();
       for (var n = 1; n < $box.length; n++) {
@@ -251,7 +252,7 @@
   var locationPath = location.pathname.split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
-  if(locationPath === "tags" || locationPath === "resource") {
+  if (locationPath === "tags" || locationPath === "resource") {
     $mainCon.remove();
     $subCon.show();
   }
