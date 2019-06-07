@@ -621,7 +621,7 @@ Mon, May 27, 2019
 
 <hr>
 <button class="btn-top" onclick="moveTop()">
-  <img src="https://DKBMC-Business.github.io//img/btn-top.png" alt="TOP" />
+  <img src="https://DKBMC-Business.github.io//img/btn-top.png" alt="TOP"/>
 </button>
 
 <footer>
@@ -679,24 +679,24 @@ Mon, May 27, 2019
   removePreviewImg();
   $(window).on("load resize", function () {
     var winWidth = window.innerWidth;
-    if (winWidth <= 1199) {
-      setTimeout(function () {
+    if(winWidth <= 1199) {
+      setTimeout(function(){
         postAlign(2);
-      }, 200);
+      },200);
     }
     else {
-      setTimeout(function () {
+      setTimeout(function(){
         postAlign(3);
-      }, 200);
+      },200);
     }
      
     $("#loading").delay(500).fadeOut(500);
   });
 
    
-  $(document).on("ready scroll", function () {
+  $(document).on("ready scroll",function(){
     var scrollTop = $(document).scrollTop();
-    if (scrollTop >= 300) {
+    if(scrollTop >= 300) {
       $(".btn-top").addClass("active");
     }
     else {
@@ -718,19 +718,19 @@ Mon, May 27, 2019
 
 
   function moveTop() {
-    $("html,body").animate({ "scrollTop": 0 }, 200);
+    $("html,body").animate({"scrollTop":0},200);
     $("html,body").scrollTop(0);
   }
-
+  
    
   function postAlign(num) {
     var heightArray = [];
-    for (var i = 0; i < num; i++) {
-      var $box = $(".post-preview:nth-of-type(" + num + "n+" + i + ")");
-      var boxTarget = ".post-preview:nth-of-type(" + num + "n+" + i + ")";
-      if (i === 0) {
-        $box = $(".post-preview:nth-of-type(" + num + "n)");
-        boxTarget = ".post-preview:nth-of-type(" + num + "n)";
+    for (var i = 0; i < num ; i++) {
+      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
+      if( i === 0 ) {
+        $box = $(".post-preview:nth-of-type("+ num +"n)");
+        boxTarget = ".post-preview:nth-of-type("+ num +"n)";
       }
       var boxHeight = $box.eq(0).outerHeight();
       for (var n = 1; n < $box.length; n++) {
@@ -753,7 +753,7 @@ Mon, May 27, 2019
   var locationPath = location.pathname.split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
-  if (locationPath === "tags" || locationPath === "resource") {
+  if(locationPath === "tags" || locationPath === "resource") {
     $mainCon.remove();
     $subCon.show();
   }
