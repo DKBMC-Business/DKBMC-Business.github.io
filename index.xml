@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
-    <lastBuildDate>Tue, 04 Jun 2019 10:38:35 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 17:29:57 +0900</lastBuildDate>
     
 	<atom:link href="https://DKBMC-Business.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>테스트 포스트</title>
+      <link>https://DKBMC-Business.github.io/post/test/</link>
+      <pubDate>Thu, 05 Sep 2019 17:29:57 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/post/test/</guid>
+      <description> 비즈니스 블로그 글 적는 중 </description>
+    </item>
     
     <item>
       <title>세일즈포스 인공지능 플랫폼, 아인슈타인을 통한 제조 산업 혁신 방안</title>
@@ -118,97 +127,6 @@ Salesforce1 플랫폼은 Salesforce CRM 어플리케이션과 함께 제공되�
       <description>고객에 대한 정확한 이해는 기업의 성공을 위한 가장 중요한 요소 입니다. 
 DK BMC는 세계 1위 고객 관리 솔루션 회사인 Salesforce의 한국 최초 GOLD 컨설팅 파트너사로서 기업이 고객과의 관계에서 최고의 가치를 창출 할 수 있도록 B2B, B2C 고객 업무 프로세스 개선과 세일즈포스 솔루션 공급 및 컨설팅 서비스를 제공 합니다. 
 리테일, 제조, 하이테크, 제약 및 의료 기기 산업 등 다양한 산업군에서 다수의 성공 사례를 바탕으로 고객이 신뢰할 수 있는 컨설팅 서비스를 제공합니다</description>
-    </item>
-    
-    <item>
-      <title>짧은 글</title>
-      <link>https://DKBMC-Business.github.io/post/t4/</link>
-      <pubDate>Mon, 27 May 2019 15:16:53 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/t4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#39;우아한테크코스 - 웹 백엔드&#39; 과정에 참여할 사람을 모집합니다.</title>
-      <link>https://DKBMC-Business.github.io/post/t3/</link>
-      <pubDate>Mon, 27 May 2019 15:16:08 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/t3/</guid>
-      <description>Vogue, Instagram Stories를 활용해 9월호 완판 사람들은 Instagram Stories를 통해 삶을 다른 관점으로 바라보고, 새로운 것을 알아보며, 좋아하는 유명인과 소통할 수 있습니다. 그와 동시에 엔터테인먼트 브랜드는 비즈니스 성과를 높이면서 사람들의 관심을 유도하고 영화, TV 프로그램 또는 이벤트를 통해 흥미를 불러일으키고자 합니다. 이러한 목표를 달성하기 위해 마케터들은 점차 더 재치 있고 꾸밈없는 방식으로 Instagram Stories에 접근하여 독특하고 매력적인 콘텐츠를 만들고 있습니다.
-SXSW 2019에서 Facebook은 Vogue의 타겟 개발 분석 담당자인 Abby Sjoberg, Condé Nast의 엔터프라이즈 전략 수석 부사장인 Eden Gorcey과 함께 2,200만 명 이상의 팔로워를 확보하게끔 한 Instagram 캠페인의 대대적인 성공을 통해 잡지 판매 및 광고 수익이 어떻게 증가했는지에 대해 대화를 나눴습니다.</description>
-    </item>
-    
-    <item>
-      <title>로봇 개발 어떻게 해야되죠? (1/2) - AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편)</title>
-      <link>https://DKBMC-Business.github.io/post/t2/</link>
-      <pubDate>Mon, 27 May 2019 15:10:07 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/t2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>목적의식 있는 연습을 통한 효과적인 학습</title>
-      <link>https://DKBMC-Business.github.io/post/t1/</link>
-      <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/t1/</guid>
-      <description>복수 선택 Picklist 쿼리    Operator Description     = Equals the specified string.   != Does not equal the specified string.   includes Includes (contains) the specified string.   excludes Excludes (does not contain) the specified string.   ; Specifies AND for two or more strings.    SELECT Id, MSP1__c FROM CustObj__c WHERE MSP1__c = &amp;#39;AAA;BBB&amp;#39; SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes (&amp;#39;AAA;BBB&amp;#39;,&amp;#39;CCC&amp;#39;) &amp;nbsp; 비교 연산자    Operator Name Description     = Equals    !</description>
-    </item>
-    
-    <item>
-      <title>Instagram에서 비즈니스에게 아이디어를 주는 인사이트 - Facebook Community Boost 런던</title>
-      <link>https://DKBMC-Business.github.io/post/test6/</link>
-      <pubDate>Mon, 27 May 2019 13:52:31 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Instagram 팝업 스토어: 브랜드를 생생하게 보여주는 방법</title>
-      <link>https://DKBMC-Business.github.io/post/test4/</link>
-      <pubDate>Mon, 27 May 2019 13:13:05 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>양방향 소통이 가능한 Instagram Stories 광고 지원</title>
-      <link>https://DKBMC-Business.github.io/post/test5/</link>
-      <pubDate>Mon, 27 May 2019 11:20:03 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Instagram에서 허위 활동을 없애기 위한 노력</title>
-      <link>https://DKBMC-Business.github.io/post/test3/</link>
-      <pubDate>Mon, 27 May 2019 11:17:36 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vogue, Instagram Stories를 활용해 9월호 완판</title>
-      <link>https://DKBMC-Business.github.io/post/test2/</link>
-      <pubDate>Mon, 27 May 2019 11:17:32 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Instagram 쇼핑의 새로운 기능: 결제</title>
-      <link>https://DKBMC-Business.github.io/post/test1/</link>
-      <pubDate>Mon, 27 May 2019 11:17:18 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test1/</guid>
-      <description></description>
     </item>
     
   </channel>
