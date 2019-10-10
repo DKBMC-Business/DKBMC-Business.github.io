@@ -110,6 +110,8 @@
             
             <li><a href="/tags/resource">Resource</a> 5</li>
             
+            <li><a href="/tags/service-works">Service-Works</a> 1</li>
+            
           </ul>
         </div>
       </div>
@@ -262,6 +264,12 @@
   else {
     $subCon.remove();
   }
+
+   
+  $(".content-line .CRM__list > a.preparing").click(function(e){
+    e.preventDefault();
+    alert("준비중입니다.");
+  });
 </script>
 
 
