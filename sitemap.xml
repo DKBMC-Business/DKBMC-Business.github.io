@@ -9,38 +9,26 @@
   </url>
   
   <url>
-    <loc>https://DKBMC-Business.github.io/resource/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/tags/service-works/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/tags/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/serviceworks1/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://DKBMC-Business.github.io/categories/</loc>
-    <lastmod>2019-10-01T10:34:32+09:00</lastmod>
+    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://DKBMC-Business.github.io/post/</loc>
-    <lastmod>2019-10-01T10:34:32+09:00</lastmod>
+    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/categories/serviceworks/</loc>
+    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/post/serviceworks1/</loc>
+    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
   </url>
   
   <url>
@@ -89,6 +77,18 @@
   
   <url>
     <loc>https://DKBMC-Business.github.io/tags/resource/</loc>
+    <lastmod>2019-06-04T10:38:35+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/resource/</loc>
+    <lastmod>2019-06-04T10:38:35+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/tags/</loc>
     <lastmod>2019-06-04T10:38:35+09:00</lastmod>
     <priority>0</priority>
   </url>

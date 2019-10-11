@@ -68,7 +68,7 @@
                     </li>
                     
                     <li>
-                        <a href="/post/">Posts</a>
+                        <a href="/post/">Product &amp; Service</a>
                     </li>
                     
                     <li>
@@ -109,6 +109,10 @@
                   <div></div>
                     
                         
+                            <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(4)</small></a></li>
+                        
+                    
+                        
                             <li style="list-style:none;"><a href="/categories/lightning-platform/"> - Lightning-Platform <small>(1)</small></a></li>
                         
                     
@@ -117,11 +121,11 @@
                         
                     
                         
-                            <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(1)</small></a></li>
+                            <li style="list-style:none;"><a href="/categories/service-cloud/"> - Service-Cloud <small>(1)</small></a></li>
                         
                     
                         
-                            <li style="list-style:none;"><a href="/categories/service-cloud/"> - Service-Cloud <small>(1)</small></a></li>
+                            <li style="list-style:none;"><a href="/categories/serviceworks/"> - Serviceworks <small>(1)</small></a></li>
                         
                     
                 </ul>
@@ -233,10 +237,6 @@
                           <li style="list-style:none;"><a href="/tags/resource/"> - Resource <small>(5)</small></a></li>
                       
                   
-                      
-                          <li style="list-style:none;"><a href="/tags/service-works/"> - Service-Works <small>(1)</small></a></li>
-                      
-                  
               </ul>
           </div>
         </div>
@@ -246,33 +246,6 @@
 <div class="container sub-container">
   <div class="row post-row">
     
-    <div class="post-preview col-lg-4 col-md-6">
-        <div class="post-preview__container">
-          
-          <a href="https://DKBMC-Business.github.io/resource/serviceworks1/" class="preview-img__a">
-            <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" class="post-thumb__img"/>
-          </a>
-          
-          <div class="post-preview__wrap">
-            <div class="category__wrap">
-<a href="/tags/service-works">service works</a>
-</div>
-            <a href="https://DKBMC-Business.github.io/resource/serviceworks1/">
-              <h2 class="post-title">클라우드 컨택 센터 솔루션 ServiceWorks!</h2>
-              <h3 class="post-subtitle">DK BMC의 ServiceWorks는 중소/중견 기업을 위한 클라우드 컨텍 센터 솔루션 입니다.</h3>
-            </a>
-            <div class="post-meta">
-              
-Thu, Oct 10, 2019
-<span class="author-name">배창욱</span>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      
     <div class="post-preview col-lg-4 col-md-6">
         <div class="post-preview__container">
           
@@ -713,7 +686,7 @@ Mon, Jun 3, 2019
   var locationPath = location.pathname.split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
-  if(locationPath === "tags" || locationPath === "resource") {
+  if(locationPath == "tags" || locationPath == "resource") {
     $mainCon.remove();
     $subCon.show();
   }
@@ -726,6 +699,26 @@ Mon, Jun 3, 2019
     e.preventDefault();
     alert("준비중입니다.");
   });
+  if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
+    console.log($(".site-heading.list-heading").text().replace(/\s/g,''));
+    $(".site-heading.list-heading h1").text("Product & Service");
+  }
+</script>
+
+<script type="text/javascript">
+  piAId = '757853';
+  piCId = '15963';
+  piHostname = 'pi.pardot.com';
+  
+  (function() {
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+  })();
 </script>
 
 

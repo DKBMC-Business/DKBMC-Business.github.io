@@ -65,7 +65,7 @@
                     </li>
                     
                     <li>
-                        <a href="/post/">Posts</a>
+                        <a href="/post/">Product &amp; Service</a>
                     </li>
                     
                     <li>
@@ -219,6 +219,9 @@ SalesCloud 는 관리자만을 위한, 관리를 위한 솔루션이 아닙니�
     crossorigin="anonymous"
     async>
 </script>
+<script>
+  $("")
+</script>
 <hr style="margin-bottom:0;border-color: #eee;">
 <button class="btn-top" onclick="moveTop()">
   <img src="https://DKBMC-Business.github.io//img/btn-top.png" alt="TOP"/>
@@ -359,7 +362,7 @@ SalesCloud 는 관리자만을 위한, 관리를 위한 솔루션이 아닙니�
   var locationPath = location.pathname.split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
-  if(locationPath === "tags" || locationPath === "resource") {
+  if(locationPath == "tags" || locationPath == "resource") {
     $mainCon.remove();
     $subCon.show();
   }
@@ -372,6 +375,26 @@ SalesCloud 는 관리자만을 위한, 관리를 위한 솔루션이 아닙니�
     e.preventDefault();
     alert("준비중입니다.");
   });
+  if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
+    console.log($(".site-heading.list-heading").text().replace(/\s/g,''));
+    $(".site-heading.list-heading h1").text("Product & Service");
+  }
+</script>
+
+<script type="text/javascript">
+  piAId = '757853';
+  piCId = '15963';
+  piHostname = 'pi.pardot.com';
+  
+  (function() {
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+  })();
 </script>
 
 

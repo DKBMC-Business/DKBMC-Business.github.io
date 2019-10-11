@@ -68,7 +68,7 @@
                     </li>
                     
                     <li>
-                        <a href="/post/">Posts</a>
+                        <a href="/post/">Product &amp; Service</a>
                     </li>
                     
                     <li>
@@ -109,6 +109,10 @@
                   <div></div>
                     
                         
+                            <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(4)</small></a></li>
+                        
+                    
+                        
                             <li style="list-style:none;"><a href="/categories/lightning-platform/"> - Lightning-Platform <small>(1)</small></a></li>
                         
                     
@@ -117,11 +121,11 @@
                         
                     
                         
-                            <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(1)</small></a></li>
+                            <li style="list-style:none;"><a href="/categories/service-cloud/"> - Service-Cloud <small>(1)</small></a></li>
                         
                     
                         
-                            <li style="list-style:none;"><a href="/categories/service-cloud/"> - Service-Cloud <small>(1)</small></a></li>
+                            <li style="list-style:none;"><a href="/categories/serviceworks/"> - Serviceworks <small>(1)</small></a></li>
                         
                     
                 </ul>
@@ -145,7 +149,7 @@
       
       <div class="post-preview__wrap">
         <div class="category__wrap">
-<a href="/categories/service-cloud">Service Cloud</a>
+<a href="/categories/salesforce">Salesforce</a><a href="/categories/service-cloud">Service Cloud</a>
 </div>
         <a href="https://DKBMC-Business.github.io/post/service_cloud_1/">
           <h2 class="post-title">고객 서비스 만족도 향상과 컨텍센터 효율 향상을 위한 최고의 서비스 플랫폼 “Service Cloud”</h2>
@@ -204,10 +208,6 @@ Fri, Sep 6, 2019
                   
                       
                           <li style="list-style:none;"><a href="/tags/resource/"> - Resource <small>(5)</small></a></li>
-                      
-                  
-                      
-                          <li style="list-style:none;"><a href="/tags/service-works/"> - Service-Works <small>(1)</small></a></li>
                       
                   
               </ul>
@@ -389,7 +389,7 @@ Fri, Sep 6, 2019
   var locationPath = location.pathname.split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
-  if(locationPath === "tags" || locationPath === "resource") {
+  if(locationPath == "tags" || locationPath == "resource") {
     $mainCon.remove();
     $subCon.show();
   }
@@ -402,6 +402,26 @@ Fri, Sep 6, 2019
     e.preventDefault();
     alert("준비중입니다.");
   });
+  if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
+    console.log($(".site-heading.list-heading").text().replace(/\s/g,''));
+    $(".site-heading.list-heading h1").text("Product & Service");
+  }
+</script>
+
+<script type="text/javascript">
+  piAId = '757853';
+  piCId = '15963';
+  piHostname = 'pi.pardot.com';
+  
+  (function() {
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+  })();
 </script>
 
 
