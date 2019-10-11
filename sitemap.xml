@@ -4,20 +4,37 @@
   
   <url>
     <loc>https://DKBMC-Business.github.io/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://DKBMC-Business.github.io/categories/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/categories/marketing-cloud/</loc>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://DKBMC-Business.github.io/post/</loc>
-    <lastmod>2019-10-10T13:34:27+09:00</lastmod>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/categories/salesforce/</loc>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/post/marketing_cloud_1/</loc>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
   </url>
   
   <url>
@@ -29,12 +46,6 @@
   <url>
     <loc>https://DKBMC-Business.github.io/post/serviceworks1/</loc>
     <lastmod>2019-10-10T13:34:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/categories/salesforce/</loc>
-    <lastmod>2019-10-01T10:34:32+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -116,42 +127,6 @@
   <url>
     <loc>https://DKBMC-Business.github.io/resource/resource1/</loc>
     <lastmod>2019-06-04T10:38:23+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/automation/</loc>
-    <lastmod>2019-06-04T10:18:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/tags/solution-service/</loc>
-    <lastmod>2019-06-04T10:18:48+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/mobile/</loc>
-    <lastmod>2019-06-04T10:18:44+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/platform/</loc>
-    <lastmod>2019-06-04T10:18:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/cloud/</loc>
-    <lastmod>2019-06-04T10:18:38+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/addon/</loc>
-    <lastmod>2019-06-04T10:18:36+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/resource/crm/</loc>
-    <lastmod>2019-06-03T17:29:14+09:00</lastmod>
   </url>
   
 </urlset>
