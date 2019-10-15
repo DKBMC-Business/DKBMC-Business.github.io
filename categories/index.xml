@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
-    <lastBuildDate>Fri, 11 Oct 2019 17:30:29 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 17:44:30 +0900</lastBuildDate>
     
 	<atom:link href="https://DKBMC-Business.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consulting Service</title>
+      <link>https://DKBMC-Business.github.io/categories/consulting-service/</link>
+      <pubDate>Tue, 15 Oct 2019 17:44:30 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/categories/consulting-service/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tableau</title>
