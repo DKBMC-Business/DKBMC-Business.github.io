@@ -86,7 +86,12 @@
 
 
 
-<header class="intro-header m-header" style="background-image: url('https://DKBMC-Business.github.io//img/post-bg-1.jpg')">
+<header class="intro-header m-header"
+
+
+style="background-image: url('https://DKBMC-Business.github.io//img/post-bg-1.jpg')"
+
+>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -155,10 +160,35 @@
               
             
         </ul>
+
+        
+        <br/><br/>
+        Detail Category
+        <ul class="main-category">
+            
+              
+                  <li style="list-style:none;"><a href="/series/lightning-platform/"> - Lightning-Platform <small>(1)</small></a></li>
+              
+            
+              
+                  <li style="list-style:none;"><a href="/series/marketing-cloud/"> - Marketing-Cloud <small>(1)</small></a></li>
+              
+            
+              
+                  <li style="list-style:none;"><a href="/series/sales-cloud/"> - Sales-Cloud <small>(1)</small></a></li>
+              
+            
+              
+                  <li style="list-style:none;"><a href="/series/service-cloud/"> - Service-Cloud <small>(1)</small></a></li>
+              
+            
+        </ul>
+        
 </div>
   <div class="row post-row comp-post-row">
+      
     
-    <div class="post-preview col-lg-4 col-md-6">
+      <div class="post-preview col-lg-4 col-md-6">
     <div class="post-preview__container">
       
       <a href="https://DKBMC-Business.github.io/post/service_cloud_1/" class="preview-img__a">
@@ -209,97 +239,6 @@ Fri, Sep 6, 2019
 
 
 
-<header class="intro-header sub-header" style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg')">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="site-heading list-heading">
-          <h1>Service Cloud</h1>
-          <hr class="small">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<div class="container-header sub-container-header container">
-  <div class="row">
-    <div class="col-sm-12">
-        
-        <div class="category-filter__wrap">
-          <div class="category-filter__txt" style="background-image:url('https://DKBMC-Business.github.io//img/ico-down.png');">Category
-              <ul class="category-list">
-                <div></div>
-                  
-                      
-                          <li style="list-style:none;"><a href="/tags/company-document/"> - Company-Document <small>(5)</small></a></li>
-                      
-                  
-              </ul>
-          </div>
-        </div>
-    </div>
-  </div>
-</div>
-<div class="container sub-container">
-    <div class="main-category__wrap">
-        Category
-        <ul class="main-category">
-            
-              
-                  <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(5)</small></a></li>
-              
-            
-              
-                  <li style="list-style:none;"><a href="/categories/serviceworks/"> - Serviceworks <small>(1)</small></a></li>
-              
-            
-              
-                  <li style="list-style:none;"><a href="/categories/tableau/"> - Tableau <small>(1)</small></a></li>
-              
-            
-        </ul>
-
-        <ul class="main-category">
-            
-              
-                  <li style="list-style:none;"><a href="/tags/company-document/"> - Company-Document <small>(5)</small></a></li>
-              
-            
-        </ul>
-</div>
-  <div class="row post-row comp-post-row">
-    
-    <div class="post-preview col-lg-4 col-md-6">
-        <div class="post-preview__container">
-          
-          <a href="https://DKBMC-Business.github.io/post/service_cloud_1/" class="preview-img__a">
-            <img src="/img/content/service_cloud_1_thumb.jpg" alt="" class="post-thumb__img"/>
-          </a>
-          
-          <div class="post-preview__wrap">
-            <div class="category__wrap">
-
-</div>
-            <a href="https://DKBMC-Business.github.io/post/service_cloud_1/">
-              <h2 class="post-title">고객 서비스 만족도 향상과 컨텍센터 효율 향상을 위한 최고의 서비스 플랫폼 “Service Cloud”</h2>
-              <h3 class="post-subtitle"></h3>
-            </a>
-            <div class="post-meta">
-              
-Fri, Sep 6, 2019
-<span class="author-name">변재경</span>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      
-  </div>
-</div>
 
 <hr style="margin-bottom:0;border-color: #eee;">
 <button class="btn-top" onclick="moveTop()">
@@ -438,15 +377,16 @@ Fri, Sep 6, 2019
 
 
    
-  var locationPath = location.pathname.split("/")[1];
+  
+  var locationPath = "\/series\/service-cloud\/".split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
-    $mainCon.remove();
-    $subCon.show();
+    
+    
   }
   else {
-    $subCon.remove();
+    
   }
 
    

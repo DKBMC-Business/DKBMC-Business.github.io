@@ -342,15 +342,16 @@ Service Cloud는 컨텍센터에서 요구하는 다양한 지표를 분석하�
 
 
    
-  var locationPath = location.pathname.split("/")[1];
+  
+  var locationPath = "\/post\/service_cloud_1\/".split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
-    $mainCon.remove();
-    $subCon.show();
+    
+    
   }
   else {
-    $subCon.remove();
+    
   }
 
    

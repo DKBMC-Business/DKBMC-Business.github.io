@@ -357,15 +357,16 @@ SalesCloud 는 관리자만을 위한, 관리를 위한 솔루션이 아닙니�
 
 
    
-  var locationPath = location.pathname.split("/")[1];
+  
+  var locationPath = "\/post\/sales_colud_1\/".split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
-    $mainCon.remove();
-    $subCon.show();
+    
+    
   }
   else {
-    $subCon.remove();
+    
   }
 
    

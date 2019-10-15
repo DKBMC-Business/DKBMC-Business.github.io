@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>What Is Salesforce Marketing Cloud?</title>
-      <link>https://DKBMC-Business.github.io/post/marketing_cloud_1/</link>
-      <pubDate>Fri, 11 Oct 2019 14:04:23 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/marketing_cloud_1/</guid>
-      <description>Marketing cloud is the platform for delivering relevant, personalized journeys across channels and devices – enabling marketers to deliver the right messages to the right people via the right channel. Below is an image that shows the different functionalities that Salesforce marketing cloud provides your organization – journey builder, contact management tools, content management tools, analytics builder and various channels like email and mobile.
-마케팅 클라우드는 채널 및 디바이스 전반에 걸쳐 관련성 있고 개인화 된 여정을 제공하는 플랫폼으로 마케팅 담당자는 올바른 채널을 통해 올바른 사람들에게 올바른 메시지를 전달할 수 있습니다.</description>
-    </item>
-    
-    <item>
       <title>Salesforce CRM 클라우드 솔루션 Overview</title>
       <link>https://DKBMC-Business.github.io/post/salesforce_crm/</link>
       <pubDate>Tue, 01 Oct 2019 10:34:32 +0900</pubDate>
@@ -33,6 +23,16 @@
 Salesforce는 글로벌 1위 CRM 솔루션 벤더사 입니다. 국내에서는 CRM 하면 좀 식상해 하는 분들도 있을지 모르겠지만, 최근 디지털 전환(Digital Transformation) 시대를 맞아 전 산업 분야에서의 Salesforce의 혁신에 대한 높은 관심과 지속적인 매출 성장이 시사하는 바는 크다 하겠습니다.
 
 &amp;lt;세일즈포스의 년도별 매출 성장과 다양한 수상 이력들&amp;gt; 세일즈포스에 대해 이해하기 위해 먼저 세일즈포스가 제공하는 솔루션과 포트폴리오를 먼저 알아 보고자 합니다.</description>
+    </item>
+    
+    <item>
+      <title>What Is Salesforce Marketing Cloud?</title>
+      <link>https://DKBMC-Business.github.io/post/marketing_cloud_1/</link>
+      <pubDate>Fri, 11 Oct 2019 14:04:23 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/post/marketing_cloud_1/</guid>
+      <description>Marketing cloud is the platform for delivering relevant, personalized journeys across channels and devices – enabling marketers to deliver the right messages to the right people via the right channel. Below is an image that shows the different functionalities that Salesforce marketing cloud provides your organization – journey builder, contact management tools, content management tools, analytics builder and various channels like email and mobile.
+마케팅 클라우드는 채널 및 디바이스 전반에 걸쳐 관련성 있고 개인화 된 여정을 제공하는 플랫폼으로 마케팅 담당자는 올바른 채널을 통해 올바른 사람들에게 올바른 메시지를 전달할 수 있습니다.</description>
     </item>
     
     <item>
