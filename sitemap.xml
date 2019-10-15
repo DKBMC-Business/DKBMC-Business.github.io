@@ -32,13 +32,19 @@
   </url>
   
   <url>
-    <loc>https://DKBMC-Business.github.io/categories/marketing-cloud/</loc>
+    <loc>https://DKBMC-Business.github.io/series/marketing-cloud/</loc>
     <lastmod>2019-10-11T14:04:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://DKBMC-Business.github.io/categories/salesforce/</loc>
+    <lastmod>2019-10-11T14:04:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/series/</loc>
     <lastmod>2019-10-11T14:04:23+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -65,7 +71,7 @@
   </url>
   
   <url>
-    <loc>https://DKBMC-Business.github.io/categories/sales-cloud/</loc>
+    <loc>https://DKBMC-Business.github.io/series/sales-cloud/</loc>
     <lastmod>2019-09-10T09:16:01+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -76,7 +82,7 @@
   </url>
   
   <url>
-    <loc>https://DKBMC-Business.github.io/categories/lightning-platform/</loc>
+    <loc>https://DKBMC-Business.github.io/series/lightning-platform/</loc>
     <lastmod>2019-09-06T10:00:02+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -87,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://DKBMC-Business.github.io/categories/service-cloud/</loc>
+    <loc>https://DKBMC-Business.github.io/series/service-cloud/</loc>
     <lastmod>2019-09-06T09:08:35+09:00</lastmod>
     <priority>0</priority>
   </url>

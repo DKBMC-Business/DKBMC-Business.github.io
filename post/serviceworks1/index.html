@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class="navbar-brand" href="https://DKBMC-Business.github.io/"><img class="logo-img" src="https://DKBMC-Business.github.io//img/DK-business-color.png" alt="DKBMC"/></a>
+                <a class="navbar-brand" href="http://dkbmc.com/"><img class="logo-img" src="https://DKBMC-Business.github.io//img/DK-business-color.png" alt="DKBMC"/></a>
             </div>
 
                        
@@ -62,7 +62,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                     <li>
-                        <a href="/">home</a>
+                        <a href="/">Recent</a>
                     </li>
                     
                     <li>
@@ -195,7 +195,6 @@
 <th>항목</th>
 <th align="center"><center>월 청구 금액</center></th>
 <th></th>
-<th></th>
 </tr>
 </thead>
 
@@ -203,7 +202,6 @@
 <tr>
 <td>Salesforce Service Cloud</td>
 <td align="center">150 $/사용자</td>
-<td></td>
 <td>구매 수량에 따라 금액 변경</td>
 </tr>
 
@@ -211,13 +209,11 @@
 <td>070 인터넷 전화 회선</td>
 <td align="center">2,000원/회선당</td>
 <td></td>
-<td></td>
 </tr>
 
 <tr>
 <td>클라우드 CTI</td>
 <td align="center">20,000원/사용자</td>
-<td></td>
 <td></td>
 </tr>
 
@@ -225,27 +221,23 @@
 <td>통화 녹취(옵션)</td>
 <td align="center">20,000원/사용자</td>
 <td></td>
-<td></td>
 </tr>
 
 <tr>
 <td>IVR(옵션)</td>
 <td align="center">20,000원/회선당</td>
-<td></td>
 <td>설정 비용 추가 청구.</td>
 </tr>
 
 <tr>
 <td>IVR 설정 및 음성 녹음 비용</td>
 <td align="center">협의 후 결정</td>
-<td></td>
 <td>고객 요건에 비례</td>
 </tr>
 
 <tr>
 <td>Kakao Talk Connector</td>
 <td align="center">10,000원/사용자</td>
-<td></td>
 <td>카카오톡 메시지 비용은 별도 청구</td>
 </tr>
 
@@ -253,17 +245,18 @@
 <td>Facebook Messenger Connector</td>
 <td align="center">10,000원/사용자</td>
 <td></td>
-<td></td>
 </tr>
 
 <tr>
 <td>Salesforce Customization &amp; 교육</td>
 <td align="center">1,000,000원/일</td>
-<td></td>
 <td>고객 요건</td>
 </tr>
 </tbody>
 </table>
+
+<p><a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a></p>
 
                   
    
@@ -349,7 +342,7 @@
 
   removePreviewImg();
   $(window).on("load resize", function () {
-    let winWidth = window.innerWidth;
+    var winWidth = window.innerWidth;
     if(winWidth <= 1199) {
       setTimeout(function(){
         postAlign(2);
@@ -366,7 +359,7 @@
 
    
   $(document).on("ready scroll",function(){
-    let scrollTop = $(document).scrollTop();
+    var scrollTop = $(document).scrollTop();
     if(scrollTop >= 300) {
       $(".btn-top").addClass("active");
     }
@@ -377,9 +370,9 @@
 
    
   function removePreviewImg() {
-    let previewImg = $(".post-preview__container .post-thumb__img");
+    var previewImg = $(".post-preview__container .post-thumb__img");
     previewImg.each(function () {
-      let thisSrc = $(this).attr("src");
+      var thisSrc = $(this).attr("src");
       if (thisSrc == "") {
         $(this).closest(".post-preview__container").children(".post-preview__wrap").css("padding-top", "30px");
         $(this).hide().remove();
@@ -395,17 +388,17 @@
   
    
   function postAlign(num) {
-    let heightArray = [];
-    for (let i = 0; i < num ; i++) {
-      let $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
-      let boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
+    var heightArray = [];
+    for (var i = 0; i < num ; i++) {
+      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
       if( i === 0 ) {
         $box = $(".post-preview:nth-of-type("+ num +"n)");
         boxTarget = ".post-preview:nth-of-type("+ num +"n)";
       }
-      let boxHeight = $box.eq(0).outerHeight();
-      for (let n = 1; n < $box.length; n++) {
-        let prevHeight = 0;
+      var boxHeight = $box.eq(0).outerHeight();
+      for (var n = 1; n < $box.length; n++) {
+        var prevHeight = 0;
         $box.eq(n).prevAll(boxTarget).each(function () {
           prevHeight += $(this).outerHeight();
         });
@@ -415,15 +408,15 @@
       $box.eq(0).css("top", 0);
       heightArray.push(boxHeight);
     }
-    let maxHeight = Math.max.apply(null, heightArray);
+    var maxHeight = Math.max.apply(null, heightArray);
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 
 
    
-  let locationPath = location.pathname.split("/")[1];
-  let $subCon = $(".sub-container, .sub-container-header, .sub-header");
-  let $mainCon = $(".main-container, .m-header, .m-container-header");
+  var locationPath = location.pathname.split("/")[1];
+  var $subCon = $(".sub-container, .sub-container-header, .sub-header");
+  var $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
     $mainCon.remove();
     $subCon.show();
@@ -441,17 +434,8 @@
   if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
     $(".site-heading.list-heading h1").text("Product & Service");
   }
-
-   
-    $(".category-list li a, .main-category li a").each(function(){
-        let thisName = $(this).text().split(""); 
-        let hyphenIndex = thisName.lastIndexOf("-");
-        if(hyphenIndex !== 1) {
-          thisName[hyphenIndex] = " ";
-          $(this).text(thisName.join(""));
-        }
-    });
 </script>
+
 
 <script type="text/javascript">
   piAId = '757853';
@@ -468,9 +452,6 @@
     else { window.addEventListener('load', async_load, false); }
   })();
 </script>
-
-
-
 </body>
 
 </html>

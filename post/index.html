@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class="navbar-brand" href="https://DKBMC-Business.github.io/"><img class="logo-img" src="https://DKBMC-Business.github.io//img/DK-business-color.png" alt="DKBMC"/></a>
+                <a class="navbar-brand" href="http://dkbmc.com/"><img class="logo-img" src="https://DKBMC-Business.github.io//img/DK-business-color.png" alt="DKBMC"/></a>
             </div>
 
                        
@@ -65,7 +65,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                     <li>
-                        <a href="/">home</a>
+                        <a href="/">Recent</a>
                     </li>
                     
                     <li>
@@ -111,22 +111,6 @@
                     
                         
                             <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(5)</small></a></li>
-                        
-                    
-                        
-                            <li style="list-style:none;"><a href="/categories/lightning-platform/"> - Lightning-Platform <small>(1)</small></a></li>
-                        
-                    
-                        
-                            <li style="list-style:none;"><a href="/categories/marketing-cloud/"> - Marketing-Cloud <small>(1)</small></a></li>
-                        
-                    
-                        
-                            <li style="list-style:none;"><a href="/categories/sales-cloud/"> - Sales-Cloud <small>(1)</small></a></li>
-                        
-                    
-                        
-                            <li style="list-style:none;"><a href="/categories/service-cloud/"> - Service-Cloud <small>(1)</small></a></li>
                         
                     
                         
@@ -187,7 +171,7 @@ Fri, Oct 11, 2019
       
       <div class="post-preview__wrap">
         <div class="category__wrap">
-<a href="/categories/salesforce">Salesforce</a><a href="/categories/marketing-cloud">Marketing Cloud</a>
+<a href="/categories/salesforce">Salesforce</a>
 </div>
         <a href="https://DKBMC-Business.github.io/post/marketing_cloud_1/">
           <h2 class="post-title">What Is Salesforce Marketing Cloud?</h2>
@@ -248,7 +232,7 @@ Thu, Oct 10, 2019
 <a href="/categories/salesforce">Salesforce</a>
 </div>
         <a href="https://DKBMC-Business.github.io/post/salesforce_crm/">
-          <h2 class="post-title">Salesforce CRM 클라우드 솔루션</h2>
+          <h2 class="post-title">Salesforce CRM 클라우드 솔루션 Overview</h2>
           <h3 class="post-subtitle">Salesforce가 제공하는 전체 솔루션과 관련 내용을 설명합니다.</h3>
         </a>
         <div class="post-meta">
@@ -274,7 +258,7 @@ Tue, Oct 1, 2019
       
       <div class="post-preview__wrap">
         <div class="category__wrap">
-<a href="/categories/salesforce">Salesforce</a><a href="/categories/sales-cloud">Sales Cloud</a>
+<a href="/categories/salesforce">Salesforce</a>
 </div>
         <a href="https://DKBMC-Business.github.io/post/sales_colud_1/">
           <h2 class="post-title">영업 생산성과 매출 향상을 위한 최고의 영업 플랫폼 SalesCloud</h2>
@@ -303,7 +287,7 @@ Tue, Sep 10, 2019
       
       <div class="post-preview__wrap">
         <div class="category__wrap">
-<a href="/categories/salesforce">Salesforce</a><a href="/categories/lightning-platform">Lightning Platform</a>
+<a href="/categories/salesforce">Salesforce</a>
 </div>
         <a href="https://DKBMC-Business.github.io/post/lightning_platform_1/">
           <h2 class="post-title">Salesforce Lightning Platform – 1.Lightning Platform이란?</h2>
@@ -390,7 +374,6 @@ Fri, Sep 6, 2019
   </div>
 </header>
 
-
 <div class="container-header sub-container-header container">
   <div class="row">
     <div class="col-sm-12">
@@ -411,6 +394,7 @@ Fri, Sep 6, 2019
   </div>
 </div>
 <div class="container sub-container">
+    
   <div class="row post-row">
     
     <div class="post-preview col-lg-4 col-md-6">
@@ -506,7 +490,7 @@ Thu, Oct 10, 2019
 
 </div>
             <a href="https://DKBMC-Business.github.io/post/salesforce_crm/">
-              <h2 class="post-title">Salesforce CRM 클라우드 솔루션</h2>
+              <h2 class="post-title">Salesforce CRM 클라우드 솔루션 Overview</h2>
               <h3 class="post-subtitle">Salesforce가 제공하는 전체 솔루션과 관련 내용을 설명합니다.</h3>
             </a>
             <div class="post-meta">
@@ -670,7 +654,7 @@ Fri, Sep 6, 2019
 
   removePreviewImg();
   $(window).on("load resize", function () {
-    let winWidth = window.innerWidth;
+    var winWidth = window.innerWidth;
     if(winWidth <= 1199) {
       setTimeout(function(){
         postAlign(2);
@@ -687,7 +671,7 @@ Fri, Sep 6, 2019
 
    
   $(document).on("ready scroll",function(){
-    let scrollTop = $(document).scrollTop();
+    var scrollTop = $(document).scrollTop();
     if(scrollTop >= 300) {
       $(".btn-top").addClass("active");
     }
@@ -698,9 +682,9 @@ Fri, Sep 6, 2019
 
    
   function removePreviewImg() {
-    let previewImg = $(".post-preview__container .post-thumb__img");
+    var previewImg = $(".post-preview__container .post-thumb__img");
     previewImg.each(function () {
-      let thisSrc = $(this).attr("src");
+      var thisSrc = $(this).attr("src");
       if (thisSrc == "") {
         $(this).closest(".post-preview__container").children(".post-preview__wrap").css("padding-top", "30px");
         $(this).hide().remove();
@@ -716,17 +700,17 @@ Fri, Sep 6, 2019
   
    
   function postAlign(num) {
-    let heightArray = [];
-    for (let i = 0; i < num ; i++) {
-      let $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
-      let boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
+    var heightArray = [];
+    for (var i = 0; i < num ; i++) {
+      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
       if( i === 0 ) {
         $box = $(".post-preview:nth-of-type("+ num +"n)");
         boxTarget = ".post-preview:nth-of-type("+ num +"n)";
       }
-      let boxHeight = $box.eq(0).outerHeight();
-      for (let n = 1; n < $box.length; n++) {
-        let prevHeight = 0;
+      var boxHeight = $box.eq(0).outerHeight();
+      for (var n = 1; n < $box.length; n++) {
+        var prevHeight = 0;
         $box.eq(n).prevAll(boxTarget).each(function () {
           prevHeight += $(this).outerHeight();
         });
@@ -736,15 +720,15 @@ Fri, Sep 6, 2019
       $box.eq(0).css("top", 0);
       heightArray.push(boxHeight);
     }
-    let maxHeight = Math.max.apply(null, heightArray);
+    var maxHeight = Math.max.apply(null, heightArray);
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 
 
    
-  let locationPath = location.pathname.split("/")[1];
-  let $subCon = $(".sub-container, .sub-container-header, .sub-header");
-  let $mainCon = $(".main-container, .m-header, .m-container-header");
+  var locationPath = location.pathname.split("/")[1];
+  var $subCon = $(".sub-container, .sub-container-header, .sub-header");
+  var $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
     $mainCon.remove();
     $subCon.show();
@@ -762,17 +746,8 @@ Fri, Sep 6, 2019
   if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
     $(".site-heading.list-heading h1").text("Product & Service");
   }
-
-   
-    $(".category-list li a, .main-category li a").each(function(){
-        let thisName = $(this).text().split(""); 
-        let hyphenIndex = thisName.lastIndexOf("-");
-        if(hyphenIndex !== 1) {
-          thisName[hyphenIndex] = " ";
-          $(this).text(thisName.join(""));
-        }
-    });
 </script>
+
 
 <script type="text/javascript">
   piAId = '757853';
@@ -789,9 +764,6 @@ Fri, Sep 6, 2019
     else { window.addEventListener('load', async_load, false); }
   })();
 </script>
-
-
-
 </body>
 
 </html>
