@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
-    <lastBuildDate>Fri, 11 Oct 2019 17:08:06 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2019 17:44:30 +0900</lastBuildDate>
     
 	<atom:link href="https://DKBMC-Business.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,24 +23,6 @@
 Salesforce는 글로벌 1위 CRM 솔루션 벤더사 입니다. 국내에서는 CRM 하면 좀 식상해 하는 분들도 있을지 모르겠지만, 최근 디지털 전환(Digital Transformation) 시대를 맞아 전 산업 분야에서의 Salesforce의 혁신에 대한 높은 관심과 지속적인 매출 성장이 시사하는 바는 크다 하겠습니다.
 
 &amp;lt;세일즈포스의 년도별 매출 성장과 다양한 수상 이력들&amp;gt; 세일즈포스에 대해 이해하기 위해 먼저 세일즈포스가 제공하는 솔루션과 포트폴리오를 먼저 알아 보고자 합니다.</description>
-    </item>
-    
-    <item>
-      <title>Retail &amp; Basket</title>
-      <link>https://DKBMC-Business.github.io/resource/video_2/</link>
-      <pubDate>Fri, 11 Oct 2019 17:08:06 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/resource/video_2/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Investment Banking Management</title>
-      <link>https://DKBMC-Business.github.io/resource/video_1/</link>
-      <pubDate>Mon, 07 Oct 2019 17:08:08 +0900</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/resource/video_1/</guid>
-      <description> </description>
     </item>
     
     <item>
@@ -166,12 +148,12 @@ No Code Builder Lightning Platform은 기본적으로 개발을 위한 Code 없�
     </item>
     
     <item>
-      <title></title>
-      <link>https://DKBMC-Business.github.io/post/test/</link>
+      <title>Test Email</title>
+      <link>https://DKBMC-Business.github.io/post/testtest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://DKBMC-Business.github.io/post/test/</guid>
-      <description>TEST</description>
+      <guid>https://DKBMC-Business.github.io/post/testtest/</guid>
+      <description>dddd</description>
     </item>
     
   </channel>

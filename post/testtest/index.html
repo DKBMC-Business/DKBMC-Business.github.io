@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="[]">
+    <meta name="author" content="[고봉훈]">
     <meta name="keywords" content="">
 
     <meta name="theme-color" content="#ffffff">
@@ -135,13 +135,13 @@
         <div class="row">
            <div class="col-lg-12 col-md-12">
              <div class="post-heading detail-heading">
-               <h1>test!!!!</h1>
+               <h1>Test Email</h1>
                <h2 class="subheading"></h2>
                <hr class="small" style="border-color: #176db5;"/>
                <span class="post-preview_date"><b>Mon, Jan 1, 0001</b></span>
                <span style="color:#fff;font-size: 1.65rem;">written by</span>
                 <a href="#" class="author">
-                <span></span>
+                <span>고봉훈</span>
                 </a>
                
              </div>
@@ -156,7 +156,7 @@
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 p-horizontal">
                   <!-- 게시글 내용 -->
 
-<p>ttttttt</p>
+<p>dddd</p>
 
                   
    
@@ -173,8 +173,6 @@
             </div>
         </div>
 
-
-        
     </article>
     <hr/>
     <script src="https://utteranc.es/client.js"
@@ -235,6 +233,23 @@
 <div id="loading">
   <div class="loader"></div>
 </div>
+
+<button class="subscribe__btn" onclick="subscribeShow()">Subscribe</button>
+
+<article class="subscribe-modal__wrap">
+  <div class="subscribe-modal">
+      <form action="https://tinyletter.com/BonghoonKo" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/BonghoonKo', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Enter your email address</label></p>
+        <p><input type="text" style="width:320px;text-align:center;" name="email" id="tlemail" /></p>
+        <input type="hidden" value="1" name="embed"/>
+        <input type="submit" value="Subscribe" />
+        <p>
+          <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+        </p>
+      </form>
+      <button class="subscribe-modal__close" onclick="subscribeClose();"></button>
+  </div>
+</article>
 
 
 <script src="https://DKBMC-Business.github.io//js/jquery.min.js"></script>
@@ -350,6 +365,18 @@
   function navMenuShow() {
     $(".nav-menu__wrap").addClass("active");
   }
+
+  function subscribeShow() {
+    $(".subscribe-modal__wrap").fadeIn(300).css("display","flex");
+  }
+
+  function subscribeClose() {
+    $(".subscribe-modal__wrap").fadeOut(300);
+  }
+
+  $(".site-heading h1").on("dblclick",function(){
+    $(".subscribe__btn").css("bottom","0");
+  });
 
   $("#loading").delay(500).fadeOut(500);
 </script>
