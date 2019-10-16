@@ -165,14 +165,5 @@ No Code Builder Lightning Platform은 기본적으로 개발을 위한 Code 없�
       <description></description>
     </item>
     
-    <item>
-      <title>TEST</title>
-      <link>https://DKBMC-Business.github.io/post/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://DKBMC-Business.github.io/post/test/</guid>
-      <description>tEST</description>
-    </item>
-    
   </channel>
 </rss>
