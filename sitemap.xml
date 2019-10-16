@@ -9,7 +9,30 @@
   
   <url>
     <loc>https://DKBMC-Business.github.io/</loc>
-    <lastmod>2019-10-11T17:08:06+09:00</lastmod>
+    <lastmod>2019-10-16T13:20:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/categories/</loc>
+    <lastmod>2019-10-16T13:20:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/post/emailtest/</loc>
+    <lastmod>2019-10-16T13:20:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/post/</loc>
+    <lastmod>2019-10-16T13:20:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://DKBMC-Business.github.io/categories/salesforce/</loc>
+    <lastmod>2019-10-16T13:20:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -42,12 +65,6 @@
   </url>
   
   <url>
-    <loc>https://DKBMC-Business.github.io/categories/</loc>
-    <lastmod>2019-10-01T17:44:30+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://DKBMC-Business.github.io/categories/consulting-service/</loc>
     <lastmod>2019-10-01T17:44:30+09:00</lastmod>
     <priority>0</priority>
@@ -56,12 +73,6 @@
   <url>
     <loc>https://DKBMC-Business.github.io/post/consulting_1/</loc>
     <lastmod>2019-10-01T17:44:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/post/</loc>
-    <lastmod>2019-10-01T17:44:30+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -88,12 +99,6 @@
   
   <url>
     <loc>https://DKBMC-Business.github.io/series/lightning-platform/</loc>
-    <lastmod>2019-09-02T10:00:02+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://DKBMC-Business.github.io/categories/salesforce/</loc>
     <lastmod>2019-09-02T10:00:02+09:00</lastmod>
     <priority>0</priority>
   </url>
