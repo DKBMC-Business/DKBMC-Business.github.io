@@ -386,6 +386,7 @@ Fri, Aug 9, 2019
 
   removePreviewImg();
   $(window).on("load resize", function () {
+    $(".post-preview").addClass("align");
     var winWidth = window.innerWidth;
     if(winWidth <= 1199) {
       setTimeout(function(){

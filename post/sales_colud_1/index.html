@@ -337,6 +337,7 @@ SalesCloud 는 관리자만을 위한, 관리를 위한 솔루션이 아닙니�
 
   removePreviewImg();
   $(window).on("load resize", function () {
+    $(".post-preview").addClass("align");
     var winWidth = window.innerWidth;
     if(winWidth <= 1199) {
       setTimeout(function(){
