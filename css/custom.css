@@ -366,7 +366,7 @@ br {
     height: auto !important;
   }
   .post-row .post-preview {
-    position: static;
+    position: static !important;
   }
 }
 
