@@ -147,6 +147,8 @@ style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg
 
 style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg')"
 
+style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg')"
+
 
 >
   <div class="container">
@@ -173,7 +175,7 @@ style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg
               <li style="list-style:none;display:block;padding:7px 50px;font-size:1.8rem;">Category</li>
                 
                     
-                        <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(6)</small></a></li>
+                        <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(5)</small></a></li>
                     
                 
                     
@@ -190,7 +192,7 @@ style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg
                 
                 <hr style="margin:4px auto;width:80%;opacity:0.65;"/>
                 
-                    <li class="tags__list" style="list-style:none;"><a href="/tags/company-document/"> - Company-Document <small>(5)</small></a></li>
+                    <li class="tags__list" style="list-style:none;"><a href="/tags/company-document/"> - Company-Document <small>(6)</small></a></li>
                 
                     <li class="tags__list" style="list-style:none;"><a href="/tags/video-contents/"> - Video-Contents <small>(2)</small></a></li>
                 
@@ -209,7 +211,7 @@ style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg
         <ul class="main-category">
             
               
-                  <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(6)</small></a></li>
+                  <li style="list-style:none;"><a href="/categories/salesforce/"> - Salesforce <small>(5)</small></a></li>
               
             
               
@@ -229,7 +231,7 @@ style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg
         <ul class="main-category">
             
               
-                  <li style="list-style:none;"><a href="/tags/company-document/"> - Company-Document <small>(5)</small></a></li>
+                  <li style="list-style:none;"><a href="/tags/company-document/"> - Company-Document <small>(6)</small></a></li>
               
             
               
@@ -241,6 +243,33 @@ style="background-image: url('https://DKBMC-Business.github.io//img/resource.jpg
         
 </div>
   <div class="row post-row comp-post-row">
+      
+      <div class="post-preview col-lg-4 col-sm-6">
+          <div class="post-preview__container">
+            
+            <a href="https://DKBMC-Business.github.io/resource/resource2/" class="preview-img__a">
+              <img src="http://www.dkbmc.com/gnuboard5/data/file/dkboard/833385916_ktBKpLVP_0e4d53cdb0bcd894c9bd1ddebbd8ca7718cab351.jpg" alt="" class="post-thumb__img"/>
+            </a>
+            
+            <div class="post-preview__wrap">
+              <div class="category__wrap">
+<a href="/tags/company-document">company document</a>
+</div>
+              <a href="https://DKBMC-Business.github.io/resource/resource2/">
+                <h2 class="post-title">2017 세일즈포스 서비스,마케팅 산업 사례</h2>
+                <h3 class="post-subtitle">2017 세일즈포스 서비스,마케팅 산업 사례 입니다.</h3>
+              </a>
+              <div class="post-meta">
+                
+Tue, Jun 4, 2019
+<span class="author-name">DK BMC</span>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
       
       <div class="post-preview col-lg-4 col-sm-6">
           <div class="post-preview__container">
@@ -268,6 +297,8 @@ Tue, Jun 4, 2019
             </div>
           </div>
         </div>
+      
+    
       
     
       
@@ -379,22 +410,7 @@ Tue, Jun 4, 2019
   <div class="loader"></div>
 </div>
 
-<button class="subscribe__btn" onclick="subscribeShow()">Subscribe</button>
 
-<article class="subscribe-modal__wrap">
-  <div class="subscribe-modal">
-      <form action="https://tinyletter.com/BonghoonKo" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/BonghoonKo', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-        <p><label for="tlemail">Enter your email address</label></p>
-        <p><input type="text" style="width:320px;text-align:center;" name="email" id="tlemail" /></p>
-        <input type="hidden" value="1" name="embed"/>
-        <input type="submit" value="Subscribe" />
-        <p>
-          <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
-        </p>
-      </form>
-      <button class="subscribe-modal__close" onclick="subscribeClose();"></button>
-  </div>
-</article>
 
 
 <script src="https://DKBMC-Business.github.io//js/jquery.min.js"></script>
@@ -409,6 +425,7 @@ Tue, Jun 4, 2019
 
   removePreviewImg();
   $(window).on("load resize", function () {
+    $(".post-preview").addClass("align");
     var winWidth = window.innerWidth;
     if(winWidth <= 1199) {
       setTimeout(function(){
@@ -511,17 +528,8 @@ Tue, Jun 4, 2019
     $(".nav-menu__wrap").addClass("active");
   }
 
-  function subscribeShow() {
-    $(".subscribe-modal__wrap").fadeIn(300).css("display","flex");
-  }
+  
 
-  function subscribeClose() {
-    $(".subscribe-modal__wrap").fadeOut(300);
-  }
-
-  $(".site-heading h1").on("dblclick",function(){
-    $(".subscribe__btn").css("bottom","0");
-  });
 
   $("#loading").delay(500).fadeOut(500);
 </script>
