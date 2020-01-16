@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
-    <lastBuildDate>Thu, 17 Oct 2019 12:00:53 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 13:21:12 +0900</lastBuildDate>
     
 	<atom:link href="https://DKBMC-Business.github.io/resource/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>대한항공 사례 발표자료</title>
+      <link>https://DKBMC-Business.github.io/resource/sf_conference_document/</link>
+      <pubDate>Thu, 16 Jan 2020 13:21:12 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/sf_conference_document/</guid>
+      <description>대한항공 사례 발표자료
+View File</description>
+    </item>
     
     <item>
       <title>DK BMC 브로셔</title>
