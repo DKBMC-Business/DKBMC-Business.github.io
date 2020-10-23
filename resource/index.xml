@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Business</title>
@@ -7,19 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
-    <lastBuildDate>Thu, 16 Jan 2020 13:21:12 +0900</lastBuildDate>
-    
-	<atom:link href="https://DKBMC-Business.github.io/resource/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 16 Jan 2020 13:21:12 +0900</lastBuildDate><atom:link href="https://DKBMC-Business.github.io/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>대한항공 사례 발표자료</title>
       <link>https://DKBMC-Business.github.io/resource/sf_conference_document/</link>
       <pubDate>Thu, 16 Jan 2020 13:21:12 +0900</pubDate>
       
       <guid>https://DKBMC-Business.github.io/resource/sf_conference_document/</guid>
-      <description>대한항공 사례 발표자료
-View File  </description>
+      <description></description>
     </item>
     
     <item>
@@ -28,8 +23,7 @@ View File  </description>
       <pubDate>Thu, 17 Oct 2019 12:00:53 +0900</pubDate>
       
       <guid>https://DKBMC-Business.github.io/resource/brochure/</guid>
-      <description>DK BMC Brochure
-View File</description>
+      <description></description>
     </item>
     
     <item>
@@ -38,7 +32,7 @@ View File</description>
       <pubDate>Tue, 15 Oct 2019 17:08:08 +0900</pubDate>
       
       <guid>https://DKBMC-Business.github.io/resource/video_8/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
@@ -47,7 +41,7 @@ View File</description>
       <pubDate>Tue, 15 Oct 2019 17:08:08 +0900</pubDate>
       
       <guid>https://DKBMC-Business.github.io/resource/video_7/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
