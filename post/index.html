@@ -852,14 +852,13 @@ Fri, Aug 16, 2019
 </div>
 
 
-
 <script>
-  let pathname = window.location.pathname.split('/')[2];
+  var pathname = window.location.pathname.split('/')[2];
   if(pathname === 'consulting-service') {
-    document.querySelector('.comp-post-row').remove();
+    document.querySelector('.comp-post-row').style.display = 'none';
   }
   else {
-    document.querySelector('.con-service__wrap').remove();
+    document.querySelector('.con-service__wrap').style.display = 'none';
   }
 </script>
 
